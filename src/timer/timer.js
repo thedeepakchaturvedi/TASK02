@@ -49,7 +49,7 @@ function createTimer() {
             ms = 0;
             second++;
             if(second == 60) {
-                hour++;
+                minute++;
                 second = 0;
                 if(minute == 60) {
                     hour++;
